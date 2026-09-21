@@ -2,6 +2,8 @@
 deployment. It builds a fixed programme, places it, validates the result and
 renders it, so a layout can be looked at rather than only scored.
 
+    python tools/make_site.py                              # no venue? make one
+    python tools/harness.py                                # .work/ws/plan.dxf
     python tools/harness.py plan.dxf                       # largest sheet
     python tools/harness.py plan.dxf 100 -1130 460 -1050   # an explicit region
     python tools/harness.py plan.dxf --heavy               # ~60 items
@@ -48,7 +50,10 @@ def programme(lib, heavy):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if not args:
-        sys.exit(__doc__)
+        args = [str(ROOT / ".work" / "ws" / "plan.dxf")]
+        if not Path(args[0]).exists():
+            sys.exit("No venue. Run  python tools/make_site.py  first, "
+                     "or pass a DXF.\n" + __doc__)
     site = Site.load(args[0])
     region = (tuple(float(v) for v in args[1:5]) if len(args) >= 5
               else site.sheets()[0].bounds)

@@ -258,6 +258,17 @@ class Library:
         self.blocks: dict = {}       # name -> Block
         self.build_seconds = 0.0
 
+    # The cache travels: it is copied into a Linux container, and shared
+    # between a Mac and a Windows checkout of this repository. A pickled
+    # WindowsPath cannot be unpickled on POSIX, nor a PosixPath on Windows,
+    # and load() swallows the failure — so a cache built on one machine was
+    # silently rebuilt, for 105 s, on every other one. load() reassigns
+    # `root` regardless, so it does not need to travel.
+    def __getstate__(self):
+        d = self.__dict__.copy()
+        d["root"] = None
+        return d
+
     # -- build ------------------------------------------------------------
 
     @classmethod

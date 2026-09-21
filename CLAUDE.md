@@ -162,18 +162,46 @@ uv venv --python 3.12 .work/venv
 uv pip install --python .work/venv/bin/python \
     ezdxf 'shapely>=2.0' numpy scipy matplotlib ortools spopt pygeoops jupedsim
 
-.work/venv/bin/python .work/harness.py all          # every engine, same plan
-.work/venv/bin/python .work/harness.py cpsat heavy  # ~60 items
-.work/venv/bin/python .work/harness.py cpsat impossible
-.work/venv/bin/python .work/t_tools.py              # the tool surface, no model
+.work/venv/bin/python tools/harness.py all      # every engine, same plan
+.work/venv/bin/python tools/harness.py cpsat    # one
 ```
 
-The harness wants `.work/ws/plan.dxf` — any venue DXF — and writes
-`.work/<engine>_<flavour>.png` so a layout can be looked at, not just scored.
+On Windows the interpreter is `.work/venv/Scripts/python.exe`; everything else
+is the same. Run from the repository root — `LIB` in `core/tools.py` is the
+relative path `assets`.
 
-Deployment uses the cycls checkout, not this venv:
+The harness wants `.work/ws/plan.dxf` — any venue DXF. `tools/faire_site.py`
+writes a synthetic one (120 x 90 m, two buildings, a road) when no real venue
+is at hand. It writes `.work/<engine>.png` so a layout can be looked at, not
+just scored.
+
+Draw a venue boundary as open lines, never as a closed polyline: `free_space`
+subtracts every drawn *surface*, so a closed outline removes the whole site and
+every engine then places nothing. This cost an hour on the first Windows run.
+
+The first catalogue load measures 3 650 blocks and takes about 105 s; it writes
+`assets/.library4.pkl` and every load after that is instant. The cache is keyed
+on `SCHEMA` and travels with the repository — and it must stay OS-neutral. A
+pickled `WindowsPath` cannot be unpickled on POSIX, nor a `PosixPath` on
+Windows, and `Library.load` swallows the failure, so a cache carrying either
+is silently rebuilt on every other machine: 105 s on a laptop, and the same
+again in every cold container, which is exactly what shipping the cache was
+meant to avoid. `Library.__getstate__` drops `root` for that reason; keep any
+new field on `Library` or `Block` a plain string, never a `Path`.
+
+The original harness — with its `heavy` and `impossible` flavours, and
+`t_tools.py`, which exercised the tool surface without a model — lived in
+`.work/`, which is gitignored, so it did not follow the repository off the Mac.
+What is in `tools/` is a smaller replacement, versioned so the loss does not
+repeat. The two lost files are still on the Mac.
+
+Deployment uses the cycls environment, not this venv. cycls is on PyPI at the
+version used here, so no local checkout is needed:
 
 ```bash
+uv venv --python 3.12 .work/deploy
+uv pip install --python .work/deploy/bin/python cycls==0.0.2.140
+
 python deploy.py            # every agent
 python deploy.py cpsat      # one
 ```

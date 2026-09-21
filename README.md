@@ -41,7 +41,7 @@ core/            DXF reading, free space, the catalogue, placement, the tool
                  surface, the prompt, the model driver
 engines/cpsat.py   the placement method
 reference/       two files the v2 prompt tells the model to read
-assets/          the catalogue: 3 535 usable blocks, normalised to metres
+assets/          the catalogue: 3 650 usable blocks, normalised to metres
 tools/           harness.py, and the scripts that built the catalogue
 docs/            transcript.md — the full conversation that built this
 CLAUDE.md        the handover: decisions, and the bugs each one cost
@@ -53,11 +53,13 @@ Python 3.12.
 
 ```bash
 pip install ezdxf "shapely>=2.0" numpy scipy matplotlib ortools
-python tools/harness.py path/to/venue.dxf
+python tools/make_site.py            # writes a synthetic 120 x 90 m venue
+python tools/harness.py              # or: python tools/harness.py your_venue.dxf
 ```
 
 The harness places a fixed programme with this engine, validates it and writes
-`harness_cpsat.png` next to the plan. No model, no deployment, no keys.
+`harness_cpsat.png` next to the plan. No model, no deployment, no keys — and
+with `make_site.py`, no client drawing either.
 
 ## Deploy it
 
