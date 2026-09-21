@@ -1,0 +1,3543 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-27 13:37:00",
+  "units": "mm",
+  "reference_dxf": "lib/catalog.dxf",
+  "n_skus": 78,
+  "n_infrastructure_skus": 33,
+  "n_prop_skus": 45,
+  "skus": [
+    {
+      "sku": "tent_5x5",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "service",
+        "support"
+      ],
+      "nominal_size_m": [
+        5,
+        5
+      ],
+      "drawn_footprint_m": [
+        6.3,
+        6.3
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "Tent-5X5"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TENT-5X5"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_5 x 5m"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "tent"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 12,
+        "seated_theatre": 20,
+        "standing_cocktail": 25,
+        "service_role": "generic"
+      },
+      "infra_load": {
+        "power_kw": 1.5,
+        "cooling_btu": 18000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "anchor_required": true,
+        "ballast_corners": 4,
+        "egress_paths": 2
+      },
+      "rating_text": "5×5 m service / pop-up tent — single bay, 4-corner ballast",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AC27_TENT_STRUCTURE_5 x 5m",
+        "preview": "previews/ac27_tent_structure_5_x_5m.png",
+        "asset_id": "ac27_tent_structure_5_x_5m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_5 x 5m"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "tent"
+        }
+      ]
+    },
+    {
+      "sku": "tent_10x10",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "hospitality"
+      ],
+      "nominal_size_m": [
+        10,
+        10
+      ],
+      "drawn_footprint_m": [
+        11.8,
+        11.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_10 x 10m"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 48,
+        "seated_theatre": 80,
+        "standing_cocktail": 100,
+        "service_role": "hospitality"
+      },
+      "infra_load": {
+        "power_kw": 6.0,
+        "cooling_btu": 72000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "anchor_required": true,
+        "ballast_corners": 8,
+        "egress_paths": 2
+      },
+      "rating_text": "10×10 m hospitality tent — banquet for ~50, cocktail for ~100",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AC27_TENT_STRUCTURE_10 x 10m",
+        "preview": "previews/ac27_tent_structure_10_x_10m.png",
+        "asset_id": "ac27_tent_structure_10_x_10m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_10 x 10m"
+        }
+      ]
+    },
+    {
+      "sku": "tent_15x10",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "hospitality"
+      ],
+      "nominal_size_m": [
+        15,
+        10
+      ],
+      "drawn_footprint_m": [
+        15.6,
+        10.6
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TENT-15X10"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 72,
+        "seated_theatre": 120,
+        "standing_cocktail": 150,
+        "service_role": "hospitality"
+      },
+      "infra_load": {
+        "power_kw": 9.0,
+        "cooling_btu": 108000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "anchor_required": true,
+        "ballast_corners": 10,
+        "egress_paths": 3
+      },
+      "rating_text": "15×10 m clear-span hospitality tent",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "TENT-15X10",
+        "preview": "previews/tent_15x10.png",
+        "asset_id": "tent_15x10"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TENT-15X10"
+        }
+      ]
+    },
+    {
+      "sku": "tent_15x15",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "hospitality"
+      ],
+      "nominal_size_m": [
+        15,
+        15
+      ],
+      "drawn_footprint_m": [
+        16.8,
+        16.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_15 x 15m"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 108,
+        "seated_theatre": 180,
+        "standing_cocktail": 225,
+        "service_role": "hospitality"
+      },
+      "infra_load": {
+        "power_kw": 13.5,
+        "cooling_btu": 162000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 2.0,
+        "anchor_required": true,
+        "ballast_corners": 12,
+        "egress_paths": 3
+      },
+      "rating_text": "15×15 m hospitality / VIP tent",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "AC27_TENT_STRUCTURE_15 x 15m",
+        "preview": "previews/tent_15x15.png",
+        "asset_id": "tent_15x15"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_15 x 15m"
+        }
+      ]
+    },
+    {
+      "sku": "tent_20x10",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "hospitality",
+        "exhibition"
+      ],
+      "nominal_size_m": [
+        20,
+        10
+      ],
+      "drawn_footprint_m": [
+        20.6,
+        10.6
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TENT-20X10"
+        },
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "Tent_20x10"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 96,
+        "seated_theatre": 160,
+        "standing_cocktail": 200,
+        "service_role": "exhibition"
+      },
+      "infra_load": {
+        "power_kw": 12.0,
+        "cooling_btu": 144000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 2.0,
+        "anchor_required": true,
+        "ballast_corners": 12,
+        "egress_paths": 3
+      },
+      "rating_text": "20×10 m clear-span tent — banquet, exhibition, or hospitality",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "TENT-20X10",
+        "preview": "previews/tent_20x10.png",
+        "asset_id": "tent_20x10"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TENT-20X10"
+        },
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "Tent_20x10"
+        }
+      ]
+    },
+    {
+      "sku": "tent_20x20",
+      "category": "structures",
+      "subcategory": "tent",
+      "function_tags": [
+        "shelter",
+        "hospitality",
+        "exhibition",
+        "main_marquee"
+      ],
+      "nominal_size_m": [
+        20,
+        20
+      ],
+      "drawn_footprint_m": [
+        21.8,
+        21.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_20 x 20m"
+        }
+      ],
+      "capacity": {
+        "seated_banquet": 192,
+        "seated_theatre": 320,
+        "standing_cocktail": 400,
+        "service_role": "main_marquee"
+      },
+      "infra_load": {
+        "power_kw": 24.0,
+        "cooling_btu": 288000,
+        "water_l_day": 0
+      },
+      "placement_rules": {
+        "min_clearance_m": 3.0,
+        "anchor_required": true,
+        "ballast_corners": 16,
+        "egress_paths": 4
+      },
+      "rating_text": "20×20 m main marquee — large banquet / dinner / awards",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "AC27_TENT_STRUCTURE_20 x 20m",
+        "preview": "previews/tent_20x20.png",
+        "asset_id": "tent_20x20"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "AC27_TENT_STRUCTURE_20 x 20m"
+        }
+      ]
+    },
+    {
+      "sku": "fnb_booth_3x3",
+      "category": "structures",
+      "subcategory": "booth",
+      "function_tags": [
+        "f_and_b",
+        "vendor",
+        "kiosk"
+      ],
+      "nominal_size_m": [
+        3,
+        3
+      ],
+      "drawn_footprint_m": [
+        3.0,
+        3.0
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "F&BB"
+        }
+      ],
+      "capacity": {
+        "serves_per_hour": 120,
+        "staff": 2,
+        "service_role": "f_and_b"
+      },
+      "infra_load": {
+        "power_kw": 5.0,
+        "water_l_day": 200,
+        "cooling_btu": 12000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "queue_depth_m": 4.0,
+        "frontage_required": true
+      },
+      "rating_text": "3×3 m F&B / vendor booth — single counter, ~2 staff",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "F&BB",
+        "preview": "previews/fnb_booth_3x3.png",
+        "asset_id": "fnb_booth_3x3"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "F&BB"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_pod_ac",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "single_pod"
+      ],
+      "nominal_size_m": [
+        2.5,
+        3
+      ],
+      "drawn_footprint_m": [
+        2.5,
+        2.9
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_AC TOILET"
+        }
+      ],
+      "capacity": {
+        "cubicles": 1,
+        "attendees_served": 50,
+        "service_role": "single_pod_ac"
+      },
+      "infra_load": {
+        "power_kw": 1.5,
+        "water_l_day": 200,
+        "cooling_btu": 9000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "queue_space_m2": 4,
+        "service_access_m": 1.5
+      },
+      "rating_text": "Single AC toilet pod — 1 cubicle, ~50 attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_AC TOILET",
+        "preview": "previews/afc27_ac_toilet.png",
+        "asset_id": "afc27_ac_toilet"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_AC TOILET"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_pod_pwd",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "accessible",
+        "compliance"
+      ],
+      "nominal_size_m": [
+        2.5,
+        5
+      ],
+      "drawn_footprint_m": [
+        2.4,
+        4.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PWD TOILET"
+        }
+      ],
+      "capacity": {
+        "cubicles": 1,
+        "attendees_served": 100,
+        "service_role": "accessible"
+      },
+      "infra_load": {
+        "power_kw": 1.0,
+        "water_l_day": 150
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "accessible_route_required": true
+      },
+      "rating_text": "PWD / accessible toilet — required for compliance, 1 per 100 PWD attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "PWD TOILET",
+        "preview": "previews/pwd_toilet.png",
+        "asset_id": "pwd_toilet"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PWD TOILET"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_8ft_pod",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "small_block"
+      ],
+      "nominal_size_m": [
+        3.8,
+        4.7
+      ],
+      "drawn_footprint_m": [
+        3.8,
+        4.7
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "TOILET-8FT"
+        }
+      ],
+      "capacity": {
+        "cubicles": 2,
+        "attendees_served": 100,
+        "service_role": "small_block"
+      },
+      "infra_load": {
+        "power_kw": 1.5,
+        "water_l_day": 400
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "service_access_m": 1.5
+      },
+      "rating_text": "8-ft toilet pod — 2 cubicles, ~100 attendees",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "TOILET-8FT",
+        "preview": "previews/toilet_8ft_v2.png",
+        "asset_id": "toilet_8ft_v2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "TOILET-8FT"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_20ft",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "container_class"
+      ],
+      "nominal_size_m": [
+        6,
+        4
+      ],
+      "drawn_footprint_m": [
+        5.9,
+        3.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_4_Cubicles_6 x 3m"
+        }
+      ],
+      "capacity": {
+        "cubicles": 4,
+        "attendees_served": 200,
+        "service_role": "20ft_block"
+      },
+      "infra_load": {
+        "power_kw": 2.0,
+        "water_l_day": 800
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "service_access_m": 2.0
+      },
+      "rating_text": "20-ft toilet block — 4 cubicles, ~200 attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_TOILET_4_Cubicles_6 x 3m",
+        "preview": "previews/afc27_toilet_4_cubicles_6_x_3m.png",
+        "asset_id": "afc27_toilet_4_cubicles_6_x_3m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_4_Cubicles_6 x 3m"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_20x12ft",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "container_class"
+      ],
+      "nominal_size_m": [
+        7.3,
+        4.7
+      ],
+      "drawn_footprint_m": [
+        7.3,
+        4.7
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TOILET 20FTx12FT"
+        }
+      ],
+      "capacity": {
+        "cubicles": 6,
+        "attendees_served": 300,
+        "service_role": "20x12_block"
+      },
+      "infra_load": {
+        "power_kw": 2.5,
+        "water_l_day": 1200
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "service_access_m": 2.0
+      },
+      "rating_text": "20×12-ft toilet block — 6 cubicles, ~300 attendees",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "TOILET 20FTx12FT",
+        "preview": "previews/toilet_20x12ft.png",
+        "asset_id": "toilet_20x12ft"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TOILET 20FTx12FT"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_30ft_8seat",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "container_class"
+      ],
+      "nominal_size_m": [
+        10,
+        3
+      ],
+      "drawn_footprint_m": [
+        10.8,
+        4.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_8Seats_10x3m"
+        }
+      ],
+      "capacity": {
+        "cubicles": 8,
+        "attendees_served": 400,
+        "service_role": "30ft_block"
+      },
+      "infra_load": {
+        "power_kw": 3.0,
+        "water_l_day": 1600
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "service_access_m": 2.0
+      },
+      "rating_text": "30-ft 8-seat toilet block — ~400 attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_TOILET_8Seats_10x3m",
+        "preview": "previews/afc27_toilet_8seats_10x3m.png",
+        "asset_id": "afc27_toilet_8seats_10x3m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_8Seats_10x3m"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_40ft_split",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "container_class",
+        "split_male_female"
+      ],
+      "nominal_size_m": [
+        12,
+        5
+      ],
+      "drawn_footprint_m": [
+        12.3,
+        4.7
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TOILET - MALE - 40FT X 12FT - 12200MM X 3663MM"
+        },
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "10M-TOILET-D plus"
+        }
+      ],
+      "capacity": {
+        "cubicles": 12,
+        "attendees_served": 600,
+        "service_role": "40ft_split"
+      },
+      "infra_load": {
+        "power_kw": 4.0,
+        "water_l_day": 2400
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "service_access_m": 2.5
+      },
+      "rating_text": "40×12-ft split (M/F) toilet — 12 cubicles, ~600 attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "TOILET - MALE - 40FT X 12FT - 12200MM X 3663MM",
+        "preview": "previews/toilet_male_40ft_x_12ft_12200mm_x_3663mm.png",
+        "asset_id": "toilet_male_40ft_x_12ft_12200mm_x_3663mm"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TOILET - MALE - 40FT X 12FT - 12200MM X 3663MM"
+        }
+      ]
+    },
+    {
+      "sku": "toilet_40ft_16cubicle",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "container_class",
+        "high_capacity"
+      ],
+      "nominal_size_m": [
+        12.3,
+        3.8
+      ],
+      "drawn_footprint_m": [
+        13.0,
+        5.0
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_16_Cubicles_12.3 x 3.8m"
+        }
+      ],
+      "capacity": {
+        "cubicles": 16,
+        "attendees_served": 800,
+        "service_role": "40ft_high_cap"
+      },
+      "infra_load": {
+        "power_kw": 4.5,
+        "water_l_day": 3200
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "service_access_m": 2.5
+      },
+      "rating_text": "40-ft 16-cubicle toilet block — ~800 attendees",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_TOILET_16_Cubicles_12.3 x 3.8m",
+        "preview": "previews/afc27_toilet_16_cubicles_12_3_x_3_8m.png",
+        "asset_id": "afc27_toilet_16_cubicles_12_3_x_3_8m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_16_Cubicles_12.3 x 3.8m"
+        }
+      ]
+    },
+    {
+      "sku": "wc_byrne_unit",
+      "category": "facilities",
+      "subcategory": "toilet_unit",
+      "function_tags": [
+        "toilet",
+        "fixture",
+        "modular_unit"
+      ],
+      "nominal_size_m": [
+        0.8,
+        0.8
+      ],
+      "drawn_footprint_m": [
+        0.8,
+        0.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "WC-BYRNE"
+        }
+      ],
+      "capacity": {
+        "cubicles": 1,
+        "attendees_served": 50,
+        "service_role": "modular_unit"
+      },
+      "infra_load": {
+        "power_kw": 0.1,
+        "water_l_day": 200
+      },
+      "placement_rules": {
+        "min_clearance_m": 0.5,
+        "modular": true
+      },
+      "rating_text": "Byrne portable WC unit — modular building block of toilet runs",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "WC-BYRNE",
+        "preview": "previews/wc_byrne_portable.png",
+        "asset_id": "wc_byrne_portable"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "WC-BYRNE"
+        }
+      ]
+    },
+    {
+      "sku": "cabin_20ft",
+      "category": "facilities",
+      "subcategory": "cabin",
+      "function_tags": [
+        "operations",
+        "office",
+        "support"
+      ],
+      "nominal_size_m": [
+        7.3,
+        4.7
+      ],
+      "drawn_footprint_m": [
+        7.4,
+        4.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_CABINS_7.58m x 3.8.m"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "20FT-OFFICE"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN_7X3.8"
+        }
+      ],
+      "capacity": {
+        "workstations": 4,
+        "occupants": 6,
+        "service_role": "ops_office"
+      },
+      "infra_load": {
+        "power_kw": 4.0,
+        "cooling_btu": 24000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "level_pad_required": true
+      },
+      "rating_text": "20-ft office cabin — small ops room, 4 workstations",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_CABINS_7.58m x 3.8.m",
+        "preview": "previews/afc27_cabins_7_58m_x_3_8_m.png",
+        "asset_id": "afc27_cabins_7_58m_x_3_8_m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_CABINS_7.58m x 3.8.m"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN_7X3.8"
+        }
+      ]
+    },
+    {
+      "sku": "cabin_20ft_open",
+      "category": "facilities",
+      "subcategory": "cabin",
+      "function_tags": [
+        "operations",
+        "office",
+        "open_plan"
+      ],
+      "nominal_size_m": [
+        6,
+        4
+      ],
+      "drawn_footprint_m": [
+        6.2,
+        3.9
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN - 20FT X 9FT OPEN PLAN"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN_6X3.8"
+        }
+      ],
+      "capacity": {
+        "workstations": 3,
+        "occupants": 5,
+        "service_role": "ops_office"
+      },
+      "infra_load": {
+        "power_kw": 3.5,
+        "cooling_btu": 18000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "level_pad_required": true
+      },
+      "rating_text": "20-ft open-plan cabin — meeting / briefing room",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "CABIN - 20FT X 9FT OPEN PLAN",
+        "preview": "previews/cabin_20ft_x_9ft_open_plan.png",
+        "asset_id": "cabin_20ft_x_9ft_open_plan"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN - 20FT X 9FT OPEN PLAN"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CABIN_6X3.8"
+        }
+      ]
+    },
+    {
+      "sku": "cabin_40ft_open",
+      "category": "facilities",
+      "subcategory": "cabin",
+      "function_tags": [
+        "operations",
+        "ops_centre",
+        "open_plan"
+      ],
+      "nominal_size_m": [
+        13,
+        5
+      ],
+      "drawn_footprint_m": [
+        12.9,
+        5.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "OPS_40FT- CABIN OPEN"
+        },
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "40x2 Office Open"
+        },
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "OPS_11x3.8000"
+        }
+      ],
+      "capacity": {
+        "workstations": 10,
+        "occupants": 15,
+        "service_role": "ops_centre"
+      },
+      "infra_load": {
+        "power_kw": 8.0,
+        "cooling_btu": 48000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "level_pad_required": true
+      },
+      "rating_text": "40-ft open-plan ops cabin — main control / event-management room",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "OPS_40FT- CABIN OPEN",
+        "preview": "previews/ops_40ft_cabin_open.png",
+        "asset_id": "ops_40ft_cabin_open"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "OPS_40FT- CABIN OPEN"
+        },
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "OPS_11x3.8000"
+        }
+      ]
+    },
+    {
+      "sku": "container_40ft",
+      "category": "facilities",
+      "subcategory": "container",
+      "function_tags": [
+        "storage",
+        "iso_container"
+      ],
+      "nominal_size_m": [
+        12.2,
+        2.4
+      ],
+      "drawn_footprint_m": [
+        12.2,
+        2.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "SHIPPING CONTAINER - 40FT X 8FT - 12192MM X 2440MM"
+        }
+      ],
+      "capacity": {
+        "volume_m3": 67,
+        "service_role": "storage"
+      },
+      "infra_load": {
+        "power_kw": 0.5
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "level_pad_required": true,
+        "lifting_access_required": true
+      },
+      "rating_text": "ISO 40-ft container — bulk storage / equipment lockup",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "SHIPPING CONTAINER - 40FT X 8FT - 12192MM X 2440MM",
+        "preview": "previews/shipping_container_40ft_x_8ft_12192mm_x_2440mm.png",
+        "asset_id": "shipping_container_40ft_x_8ft_12192mm_x_2440mm"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "SHIPPING CONTAINER - 40FT X 8FT - 12192MM X 2440MM"
+        }
+      ]
+    },
+    {
+      "sku": "cabin_32ft_vip",
+      "category": "facilities",
+      "subcategory": "cabin",
+      "function_tags": [
+        "vip",
+        "hospitality",
+        "premium"
+      ],
+      "nominal_size_m": [
+        11,
+        4.7
+      ],
+      "drawn_footprint_m": [
+        11.0,
+        5.3
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "32FT VIP"
+        }
+      ],
+      "capacity": {
+        "occupants": 8,
+        "service_role": "vip_lounge"
+      },
+      "infra_load": {
+        "power_kw": 6.0,
+        "cooling_btu": 36000
+      },
+      "placement_rules": {
+        "min_clearance_m": 2.0,
+        "screened_access_required": true,
+        "level_pad_required": true
+      },
+      "rating_text": "32-ft VIP cabin — green room / hospitality / artist lounge",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "32FT VIP",
+        "preview": "previews/cabin_32ft_vip.png",
+        "asset_id": "cabin_32ft_vip"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "32FT VIP"
+        }
+      ]
+    },
+    {
+      "sku": "restroom_vip_20ft",
+      "category": "facilities",
+      "subcategory": "toilet",
+      "function_tags": [
+        "toilet",
+        "vip",
+        "premium"
+      ],
+      "nominal_size_m": [
+        6,
+        6
+      ],
+      "drawn_footprint_m": [
+        6.0,
+        6.2
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "20FT VIP RESTROOM-MDL"
+        }
+      ],
+      "capacity": {
+        "cubicles": 4,
+        "attendees_served": 200,
+        "service_role": "vip_toilet"
+      },
+      "infra_load": {
+        "power_kw": 3.0,
+        "water_l_day": 800,
+        "cooling_btu": 18000
+      },
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "screened_access_required": true
+      },
+      "rating_text": "VIP 20-ft restroom — premium fitout, ~200 VIP attendees",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "20FT VIP RESTROOM-MDL",
+        "preview": "previews/restroom_vip_20ft.png",
+        "asset_id": "restroom_vip_20ft"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "20FT VIP RESTROOM-MDL"
+        }
+      ]
+    },
+    {
+      "sku": "generator_diesel_500kva",
+      "category": "power",
+      "subcategory": "generator",
+      "function_tags": [
+        "power_supply",
+        "back_of_house"
+      ],
+      "nominal_size_m": [
+        5.3,
+        2.6
+      ],
+      "drawn_footprint_m": [
+        5.29,
+        2.55
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "GENERATOR-DIESEL"
+        }
+      ],
+      "capacity": {
+        "output_kva": 500,
+        "output_kw": 400,
+        "fuel_l_per_hour": 80,
+        "service_role": "primary_power"
+      },
+      "infra_load": {
+        "fuel_l_day": 1920,
+        "exhaust_clearance_m": 3.0,
+        "noise_dba_at_7m": 75
+      },
+      "placement_rules": {
+        "min_clearance_m": 3.0,
+        "exhaust_side_clearance_m": 5.0,
+        "fuel_distance_max_m": 10.0,
+        "n_plus_1_redundancy": true,
+        "min_distance_to_public_m": 15.0
+      },
+      "rating_text": "500 kVA / 400 kW diesel genset in acoustic enclosure — primary event power",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "GENERATOR-DIESEL",
+        "preview": "previews/generator_diesel_500kva.png",
+        "asset_id": "generator_diesel_500kva"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "GENERATOR-DIESEL"
+        }
+      ]
+    },
+    {
+      "sku": "fuel_tank_bunded",
+      "category": "power",
+      "subcategory": "fuel",
+      "function_tags": [
+        "fuel",
+        "back_of_house"
+      ],
+      "nominal_size_m": [
+        2.4,
+        2.4
+      ],
+      "drawn_footprint_m": [
+        2.4,
+        2.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "FUEL TANK"
+        }
+      ],
+      "capacity": {
+        "volume_l": 7500,
+        "supports_gensets_500kva": 2,
+        "runtime_at_full_load_h": 47,
+        "service_role": "fuel_storage"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "min_clearance_m": 5.0,
+        "bunded": true,
+        "min_distance_to_public_m": 15.0,
+        "fire_extinguisher_required": true,
+        "max_distance_to_genset_m": 10.0
+      },
+      "rating_text": "Bunded 7,500 L fuel cube — supports 2× 500 kVA gensets for ~47 h",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "FUEL TANK",
+        "preview": "previews/fuel_tank_bunded.png",
+        "asset_id": "fuel_tank_bunded"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "FUEL TANK"
+        }
+      ]
+    },
+    {
+      "sku": "mdb_main_dist_board",
+      "category": "power",
+      "subcategory": "distribution",
+      "function_tags": [
+        "power_distribution"
+      ],
+      "nominal_size_m": [
+        2.0,
+        1.0
+      ],
+      "drawn_footprint_m": [
+        2.0,
+        1.0
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "MDB"
+        }
+      ],
+      "capacity": {
+        "output_kw": 400,
+        "circuits": 24,
+        "service_role": "main_distribution"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "min_clearance_m": 1.5,
+        "weather_sheltered_required": true,
+        "max_distance_to_genset_m": 30.0,
+        "lockable_required": true
+      },
+      "rating_text": "Main distribution board — 24-way, downstream of generator",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "MDB",
+        "preview": "previews/mdb_main_dist_board.png",
+        "asset_id": "mdb_main_dist_board"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "MDB"
+        }
+      ]
+    },
+    {
+      "sku": "water_tank_static_3x3",
+      "category": "water",
+      "subcategory": "tank",
+      "function_tags": [
+        "water_supply",
+        "fire_reserve"
+      ],
+      "nominal_size_m": [
+        3,
+        3
+      ],
+      "drawn_footprint_m": [
+        3.0,
+        3.0
+      ],
+      "aliases": [],
+      "capacity": {
+        "volume_l": 9000,
+        "service_role": "static_supply"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "fill_access_m": 3.0,
+        "level_pad_required": true
+      },
+      "rating_text": "Static 9,000 L water tank — universal fire reserve / WC supply",
+      "canonical": null,
+      "live_aliases": [],
+      "needs_block": true
+    },
+    {
+      "sku": "water_tank_1000gal",
+      "category": "water",
+      "subcategory": "tank",
+      "function_tags": [
+        "water_supply",
+        "potable"
+      ],
+      "nominal_size_m": [
+        1.7,
+        1.7
+      ],
+      "drawn_footprint_m": [
+        1.68,
+        1.96
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "BYRNE_WT-1000_GAL"
+        }
+      ],
+      "capacity": {
+        "volume_l": 3800,
+        "service_role": "potable_supply"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "min_clearance_m": 1.0,
+        "fill_access_m": 2.0
+      },
+      "rating_text": "1,000-gal (3,800 L) potable water tank — Byrne kit standard",
+      "canonical": {
+        "lib_dxf": "lib/infra_assets.dxf",
+        "block_name": "BYRNE_WT-1000_GAL",
+        "preview": "previews/water_tank_1000gal.png",
+        "asset_id": "water_tank_1000gal"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/infra_assets.dxf",
+          "block_name": "BYRNE_WT-1000_GAL"
+        }
+      ]
+    },
+    {
+      "sku": "split_ac_indoor",
+      "category": "hvac",
+      "subcategory": "split_ac",
+      "function_tags": [
+        "cooling",
+        "fitout"
+      ],
+      "nominal_size_m": [
+        1.1,
+        0.7
+      ],
+      "drawn_footprint_m": [
+        1.14,
+        0.66
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "SPLIT-AC"
+        }
+      ],
+      "capacity": {
+        "cooling_btu": 24000,
+        "service_role": "single_room"
+      },
+      "infra_load": {
+        "power_kw": 2.5
+      },
+      "placement_rules": {
+        "pair_with": "cu_outdoor_condenser",
+        "max_pipe_m": 15.0
+      },
+      "rating_text": "Indoor split-AC unit (~2 ton) — cabin / VIP toilet cooling",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "SPLIT-AC",
+        "preview": "previews/split_ac.png",
+        "asset_id": "split_ac"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "SPLIT-AC"
+        }
+      ]
+    },
+    {
+      "sku": "cu_outdoor_condenser",
+      "category": "hvac",
+      "subcategory": "condenser",
+      "function_tags": [
+        "cooling",
+        "outdoor_unit"
+      ],
+      "nominal_size_m": [
+        1.0,
+        0.4
+      ],
+      "drawn_footprint_m": [
+        0.98,
+        0.37
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CU-OUTDOOR-S"
+        }
+      ],
+      "capacity": {
+        "cooling_btu": 24000,
+        "service_role": "single_room_outdoor"
+      },
+      "infra_load": {
+        "power_kw": 2.5
+      },
+      "placement_rules": {
+        "pair_with": "split_ac_indoor",
+        "min_clearance_m": 0.5,
+        "weather_exposed": true
+      },
+      "rating_text": "Outdoor condenser — pairs 1:1 with split_ac_indoor",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "CU-OUTDOOR-S",
+        "preview": "previews/cu_outdoor_s.png",
+        "asset_id": "cu_outdoor_s"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "CU-OUTDOOR-S"
+        }
+      ]
+    },
+    {
+      "sku": "tent_ballast_0_8",
+      "category": "structures",
+      "subcategory": "ballast",
+      "function_tags": [
+        "anchor",
+        "modular_unit"
+      ],
+      "nominal_size_m": [
+        0.8,
+        0.8
+      ],
+      "drawn_footprint_m": [
+        0.8,
+        0.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_BALLAST_BLOCK_0.8 x 0.8m"
+        }
+      ],
+      "capacity": {
+        "weight_kg": 600,
+        "service_role": "anchor_unit"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "per_tent_corner": true,
+        "modular": true
+      },
+      "rating_text": "0.8 m square ballast block (~600 kg) — 1 per tent corner",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AC27_TENT_BALLAST_BLOCK_0.8 x 0.8m",
+        "preview": "previews/ac27_tent_ballast_block_0_8_x_0_8m.png",
+        "asset_id": "ac27_tent_ballast_block_0_8_x_0_8m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_BALLAST_BLOCK_0.8 x 0.8m"
+        }
+      ]
+    },
+    {
+      "sku": "tent_ballast_0_6",
+      "category": "structures",
+      "subcategory": "ballast",
+      "function_tags": [
+        "anchor",
+        "modular_unit"
+      ],
+      "nominal_size_m": [
+        0.6,
+        0.6
+      ],
+      "drawn_footprint_m": [
+        0.6,
+        0.6
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_BALLAST_BLOCK_0.6 x 0.6m"
+        }
+      ],
+      "capacity": {
+        "weight_kg": 350,
+        "service_role": "anchor_unit"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "per_tent_corner": true,
+        "modular": true
+      },
+      "rating_text": "0.6 m square ballast block (~350 kg) — small-tent corner anchor",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AC27_TENT_BALLAST_BLOCK_0.6 x 0.6m",
+        "preview": "previews/ac27_tent_ballast_block_0_6_x_0_6m.png",
+        "asset_id": "ac27_tent_ballast_block_0_6_x_0_6m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AC27_TENT_BALLAST_BLOCK_0.6 x 0.6m"
+        }
+      ]
+    },
+    {
+      "sku": "bin_grouped",
+      "category": "equipment",
+      "subcategory": "waste",
+      "function_tags": [
+        "waste"
+      ],
+      "nominal_size_m": [
+        1.4,
+        0.4
+      ],
+      "drawn_footprint_m": [
+        1.38,
+        0.36
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "BIN-GROUP"
+        }
+      ],
+      "capacity": {
+        "streams": 3,
+        "attendees_served": 200,
+        "service_role": "waste_station"
+      },
+      "infra_load": {},
+      "placement_rules": {
+        "per_attendees": 200,
+        "near_f_and_b": true
+      },
+      "rating_text": "3-stream bin group — 1 per ~200 attendees, place near F&B",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "BIN-GROUP",
+        "preview": "previews/bin_group.png",
+        "asset_id": "bin_group"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "BIN-GROUP"
+        }
+      ]
+    },
+    {
+      "sku": "led_screen_large",
+      "category": "equipment",
+      "subcategory": "av",
+      "function_tags": [
+        "av",
+        "stage",
+        "broadcast"
+      ],
+      "nominal_size_m": [
+        25,
+        17
+      ],
+      "drawn_footprint_m": [
+        24.83,
+        17.26
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "led screen"
+        }
+      ],
+      "capacity": {
+        "viewing_distance_max_m": 80,
+        "service_role": "main_screen"
+      },
+      "infra_load": {
+        "power_kw": 30.0
+      },
+      "placement_rules": {
+        "min_clearance_m": 5.0,
+        "rigging_required": true,
+        "viewing_arc_deg": 120
+      },
+      "rating_text": "Large LED screen ~25×17 m — main stage / award show, ~30 kW load",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "led screen",
+        "preview": "previews/led_screen.png",
+        "asset_id": "led_screen"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "led screen"
+        }
+      ]
+    },
+    {
+      "sku": "e_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        0.22,
+        0.16
+      ],
+      "drawn_footprint_m": [
+        0.22,
+        0.16
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "E_LIGHT"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "E_LIGHT",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "E_LIGHT",
+        "preview": "previews/e_light.png",
+        "asset_id": "e_light"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "E_LIGHT"
+        }
+      ]
+    },
+    {
+      "sku": "fence_light_weight_barriers",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        2.3,
+        0.54
+      ],
+      "drawn_footprint_m": [
+        2.3,
+        0.54
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "FENCE - LIGHT WEIGHT BARRIERs"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "FENCE - LIGHT WEIGHT BARRIERs",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "FENCE - LIGHT WEIGHT BARRIERs",
+        "preview": "previews/fence_light_weight_barriers.png",
+        "asset_id": "fence_light_weight_barriers"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "FENCE - LIGHT WEIGHT BARRIERs"
+        }
+      ]
+    },
+    {
+      "sku": "gwa_6in_dl",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        6.0,
+        6.0
+      ],
+      "drawn_footprint_m": [
+        6.0,
+        6.0
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_6in DL"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "GWA_6in DL",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "GWA_6in DL",
+        "preview": "previews/gwa_6in_dl.png",
+        "asset_id": "gwa_6in_dl"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_6in DL"
+        }
+      ]
+    },
+    {
+      "sku": "gwa_general_accent",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        12.76,
+        8.51
+      ],
+      "drawn_footprint_m": [
+        12.76,
+        8.51
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_GENERAL ACCENT"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "GWA_GENERAL ACCENT",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "GWA_GENERAL ACCENT",
+        "preview": "previews/gwa_general_accent.png",
+        "asset_id": "gwa_general_accent"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_GENERAL ACCENT"
+        }
+      ]
+    },
+    {
+      "sku": "gwa_ingrade_fixture",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        6.0,
+        5.37
+      ],
+      "drawn_footprint_m": [
+        6.0,
+        5.37
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_INGRADE FIXTURE"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "GWA_INGRADE FIXTURE",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "GWA_INGRADE FIXTURE",
+        "preview": "previews/gwa_ingrade_fixture.png",
+        "asset_id": "gwa_ingrade_fixture"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_INGRADE FIXTURE"
+        }
+      ]
+    },
+    {
+      "sku": "gwa_lamp_post",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        23.9,
+        26.07
+      ],
+      "drawn_footprint_m": [
+        23.9,
+        26.07
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_LAMP POST"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "GWA_LAMP POST",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "GWA_LAMP POST",
+        "preview": "previews/gwa_lamp_post.png",
+        "asset_id": "gwa_lamp_post"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_LAMP POST"
+        }
+      ]
+    },
+    {
+      "sku": "gwa_steplight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        30.0,
+        12.86
+      ],
+      "drawn_footprint_m": [
+        30.0,
+        12.86
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_STEPLIGHT"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "GWA_STEPLIGHT",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "GWA_STEPLIGHT",
+        "preview": "previews/gwa_steplight.png",
+        "asset_id": "gwa_steplight"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "GWA_STEPLIGHT"
+        }
+      ]
+    },
+    {
+      "sku": "lamp1",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        6.96,
+        9.49
+      ],
+      "drawn_footprint_m": [
+        6.96,
+        9.49
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "LAMP1"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "LAMP1",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "LAMP1",
+        "preview": "previews/lamp1.png",
+        "asset_id": "lamp1"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "LAMP1"
+        }
+      ]
+    },
+    {
+      "sku": "light_pole_2",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        1.6,
+        1.6
+      ],
+      "drawn_footprint_m": [
+        1.6,
+        1.6
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "LIGHT POLE"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "LIGHT POLE",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "LIGHT POLE",
+        "preview": "previews/light_pole_2.png",
+        "asset_id": "light_pole_2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "LIGHT POLE"
+        }
+      ]
+    },
+    {
+      "sku": "light_tower_flat_2",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        3.45,
+        3.44
+      ],
+      "drawn_footprint_m": [
+        3.45,
+        3.44
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "light tower-flat-2"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "light tower-flat-2",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "light tower-flat-2",
+        "preview": "previews/light_tower_flat_2.png",
+        "asset_id": "light_tower_flat_2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "light tower-flat-2"
+        }
+      ]
+    },
+    {
+      "sku": "lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        2.5,
+        2.5
+      ],
+      "drawn_footprint_m": [
+        2.5,
+        2.5
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "lighting"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "lighting",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "lighting",
+        "preview": "previews/lighting.png",
+        "asset_id": "lighting"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "lighting"
+        }
+      ]
+    },
+    {
+      "sku": "pole_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        5.0,
+        1.0
+      ],
+      "drawn_footprint_m": [
+        5.0,
+        1.0
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POLE LIGHT"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "POLE LIGHT",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "POLE LIGHT",
+        "preview": "previews/pole_light.png",
+        "asset_id": "pole_light"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POLE LIGHT"
+        }
+      ]
+    },
+    {
+      "sku": "pop_up_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        3.0,
+        1.2
+      ],
+      "drawn_footprint_m": [
+        3.0,
+        1.2
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POP UP LIGHT"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "POP UP LIGHT",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "POP UP LIGHT",
+        "preview": "previews/pop_up_light.png",
+        "asset_id": "pop_up_light"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POP UP LIGHT"
+        }
+      ]
+    },
+    {
+      "sku": "pop_up_light_2",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "function_tags": [
+        "prop",
+        "lighting"
+      ],
+      "nominal_size_m": [
+        1.2,
+        1.2
+      ],
+      "drawn_footprint_m": [
+        1.2,
+        1.2
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POP UP LIGHT-2"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "POP UP LIGHT-2",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "POP UP LIGHT-2",
+        "preview": "previews/pop_up_light_2.png",
+        "asset_id": "pop_up_light_2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "POP UP LIGHT-2"
+        }
+      ]
+    },
+    {
+      "sku": "arecaceae",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        6.58,
+        6.69
+      ],
+      "drawn_footprint_m": [
+        6.58,
+        6.69
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Arecaceae"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Arecaceae",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Arecaceae",
+        "preview": "previews/arecaceae.png",
+        "asset_id": "arecaceae"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Arecaceae"
+        }
+      ]
+    },
+    {
+      "sku": "newpalm",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        4.79,
+        4.79
+      ],
+      "drawn_footprint_m": [
+        4.79,
+        4.79
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "NewPalm"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "NewPalm",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "NewPalm",
+        "preview": "previews/newpalm.png",
+        "asset_id": "newpalm"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "NewPalm"
+        }
+      ]
+    },
+    {
+      "sku": "pa_plan_tree_04",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        1.04,
+        0.97
+      ],
+      "drawn_footprint_m": [
+        1.04,
+        0.97
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "pa_plan_tree_04"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "pa_plan_tree_04",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "pa_plan_tree_04",
+        "preview": "previews/pa_plan_tree_04.png",
+        "asset_id": "pa_plan_tree_04"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "pa_plan_tree_04"
+        }
+      ]
+    },
+    {
+      "sku": "palm",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        1.66,
+        1.8
+      ],
+      "drawn_footprint_m": [
+        1.66,
+        1.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "palm"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "palm",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "palm",
+        "preview": "previews/palm.png",
+        "asset_id": "palm"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "palm"
+        }
+      ]
+    },
+    {
+      "sku": "plant_1",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        5.9,
+        6.4
+      ],
+      "drawn_footprint_m": [
+        5.9,
+        6.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_1"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant_1",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant_1",
+        "preview": "previews/plant_1.png",
+        "asset_id": "plant_1"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_1"
+        }
+      ]
+    },
+    {
+      "sku": "plant_3",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        4.78,
+        4.93
+      ],
+      "drawn_footprint_m": [
+        4.78,
+        4.93
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_3"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant_3",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant_3",
+        "preview": "previews/plant_3.png",
+        "asset_id": "plant_3"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_3"
+        }
+      ]
+    },
+    {
+      "sku": "plant_4",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        6.54,
+        6.54
+      ],
+      "drawn_footprint_m": [
+        6.54,
+        6.54
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_4"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant_4",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant_4",
+        "preview": "previews/plant_4.png",
+        "asset_id": "plant_4"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant_4"
+        }
+      ]
+    },
+    {
+      "sku": "plant_shurb_3",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        1.9,
+        2.04
+      ],
+      "drawn_footprint_m": [
+        1.9,
+        2.04
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Shurb_3"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant-Shurb_3",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant-Shurb_3",
+        "preview": "previews/plant_shurb_3.png",
+        "asset_id": "plant_shurb_3"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Shurb_3"
+        }
+      ]
+    },
+    {
+      "sku": "plant_shurb_4",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        5.12,
+        5.2
+      ],
+      "drawn_footprint_m": [
+        5.12,
+        5.2
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Shurb_4"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant-Shurb_4",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant-Shurb_4",
+        "preview": "previews/plant_shurb_4.png",
+        "asset_id": "plant_shurb_4"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Shurb_4"
+        }
+      ]
+    },
+    {
+      "sku": "plant_sshurb_2",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        0.44,
+        0.47
+      ],
+      "drawn_footprint_m": [
+        0.44,
+        0.47
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Sshurb_2"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Plant-Sshurb_2",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Plant-Sshurb_2",
+        "preview": "previews/plant_sshurb_2.png",
+        "asset_id": "plant_sshurb_2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Plant-Sshurb_2"
+        }
+      ]
+    },
+    {
+      "sku": "planter_storage_bcn_1550mm_x_300mm",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        1.59,
+        0.56
+      ],
+      "drawn_footprint_m": [
+        1.59,
+        0.56
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PLANTER - STORAGE BCN - 1550MM X 300MM"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "PLANTER - STORAGE BCN - 1550MM X 300MM",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "PLANTER - STORAGE BCN - 1550MM X 300MM",
+        "preview": "previews/planter_storage_bcn_1550mm_x_300mm.png",
+        "asset_id": "planter_storage_bcn_1550mm_x_300mm"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PLANTER - STORAGE BCN - 1550MM X 300MM"
+        }
+      ]
+    },
+    {
+      "sku": "tree_palm_3d_70_1173",
+      "category": "plants",
+      "subcategory": "plants",
+      "function_tags": [
+        "prop",
+        "plants"
+      ],
+      "nominal_size_m": [
+        7.39,
+        7.39
+      ],
+      "drawn_footprint_m": [
+        7.39,
+        7.39
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TREE_PALM_3D_70_1173"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "TREE_PALM_3D_70_1173",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "TREE_PALM_3D_70_1173",
+        "preview": "previews/tree_palm_3d_70_1173.png",
+        "asset_id": "tree_palm_3d_70_1173"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TREE_PALM_3D_70_1173"
+        }
+      ]
+    },
+    {
+      "sku": "1_sseater",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.85,
+        0.75
+      ],
+      "drawn_footprint_m": [
+        0.85,
+        0.75
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "1 sseater"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "1 sseater",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "1 sseater",
+        "preview": "previews/1_sseater.png",
+        "asset_id": "1_sseater"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "1 sseater"
+        }
+      ]
+    },
+    {
+      "sku": "2seater",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        1.7,
+        0.75
+      ],
+      "drawn_footprint_m": [
+        1.7,
+        0.75
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "2seater"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "2seater",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "2seater",
+        "preview": "previews/2seater.png",
+        "asset_id": "2seater"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "2seater"
+        }
+      ]
+    },
+    {
+      "sku": "afc27_toilet_8seats_10x3m",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        10.45,
+        4.38
+      ],
+      "drawn_footprint_m": [
+        10.45,
+        4.38
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_8Seats_10x3m"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "AFC27_TOILET_8Seats_10x3m",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "AFC27_TOILET_8Seats_10x3m",
+        "preview": "previews/afc27_toilet_8seats_10x3m.png",
+        "asset_id": "afc27_toilet_8seats_10x3m"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "AFC27_TOILET_8Seats_10x3m"
+        }
+      ]
+    },
+    {
+      "sku": "beats_chair",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.05,
+        0.06
+      ],
+      "drawn_footprint_m": [
+        0.05,
+        0.06
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "beats chair"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "beats chair",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "beats chair",
+        "preview": "previews/beats_chair.png",
+        "asset_id": "beats_chair"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "beats chair"
+        }
+      ]
+    },
+    {
+      "sku": "bench",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        2.6,
+        0.65
+      ],
+      "drawn_footprint_m": [
+        2.6,
+        0.65
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "BENCH",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "BENCH",
+        "preview": "previews/bench.png",
+        "asset_id": "bench"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH"
+        }
+      ]
+    },
+    {
+      "sku": "bench_01",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        2.2,
+        0.55
+      ],
+      "drawn_footprint_m": [
+        2.2,
+        0.55
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH_01"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "BENCH_01",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "BENCH_01",
+        "preview": "previews/bench_01.png",
+        "asset_id": "bench_01"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH_01"
+        }
+      ]
+    },
+    {
+      "sku": "bench_f_b",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        1.66,
+        1.44
+      ],
+      "drawn_footprint_m": [
+        1.66,
+        1.44
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH-F&B"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "BENCH-F&B",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "BENCH-F&B",
+        "preview": "previews/bench_f_b.png",
+        "asset_id": "bench_f_b"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "BENCH-F&B"
+        }
+      ]
+    },
+    {
+      "sku": "chair11",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.48,
+        0.53
+      ],
+      "drawn_footprint_m": [
+        0.48,
+        0.53
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "chair11"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "chair11",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "chair11",
+        "preview": "previews/chair11.png",
+        "asset_id": "chair11"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "chair11"
+        }
+      ]
+    },
+    {
+      "sku": "chair_sasm24",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.48,
+        0.49
+      ],
+      "drawn_footprint_m": [
+        0.48,
+        0.49
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "CHAIR-SASM24"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Stacking event chair",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "CHAIR-SASM24",
+        "preview": "previews/chair_sasm24.png",
+        "asset_id": "chair_sasm24"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "CHAIR-SASM24"
+        }
+      ]
+    },
+    {
+      "sku": "majlis_couch",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.2,
+        0.1
+      ],
+      "drawn_footprint_m": [
+        0.2,
+        0.1
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "majlis couch"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "majlis couch",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "majlis couch",
+        "preview": "previews/majlis_couch.png",
+        "asset_id": "majlis_couch"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "majlis couch"
+        }
+      ]
+    },
+    {
+      "sku": "mayfair_armchair_grey",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        0.73,
+        0.64
+      ],
+      "drawn_footprint_m": [
+        0.73,
+        0.64
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Mayfair Armchair - Grey"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Mayfair Armchair - Grey",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Mayfair Armchair - Grey",
+        "preview": "previews/mayfair_armchair_grey.png",
+        "asset_id": "mayfair_armchair_grey"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Mayfair Armchair - Grey"
+        }
+      ]
+    },
+    {
+      "sku": "platte_seating",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        2.4,
+        2.4
+      ],
+      "drawn_footprint_m": [
+        2.4,
+        2.4
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PLATTE SEATING"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "PLATTE SEATING",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "PLATTE SEATING",
+        "preview": "previews/platte_seating.png",
+        "asset_id": "platte_seating"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "PLATTE SEATING"
+        }
+      ]
+    },
+    {
+      "sku": "slick_1_seat_frame",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        2.0,
+        0.8
+      ],
+      "drawn_footprint_m": [
+        2.0,
+        0.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Slick 1 seat frame"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Slick 1 seat frame",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Slick 1 seat frame",
+        "preview": "previews/slick_1_seat_frame.png",
+        "asset_id": "slick_1_seat_frame"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Slick 1 seat frame"
+        }
+      ]
+    },
+    {
+      "sku": "slick_4_seats_frame",
+      "category": "seating",
+      "subcategory": "seating",
+      "function_tags": [
+        "prop",
+        "seating"
+      ],
+      "nominal_size_m": [
+        2.0,
+        0.8
+      ],
+      "drawn_footprint_m": [
+        2.0,
+        0.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Slick 4 seats frame"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Slick 4 seats frame",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "Slick 4 seats frame",
+        "preview": "previews/slick_4_seats_frame.png",
+        "asset_id": "slick_4_seats_frame"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "Slick 4 seats frame"
+        }
+      ]
+    },
+    {
+      "sku": "picnic_table",
+      "category": "tables",
+      "subcategory": "tables",
+      "function_tags": [
+        "prop",
+        "tables"
+      ],
+      "nominal_size_m": [
+        2.21,
+        1.48
+      ],
+      "drawn_footprint_m": [
+        2.21,
+        1.48
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "picnic table"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "picnic table",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "picnic table",
+        "preview": "previews/picnic_table.png",
+        "asset_id": "picnic_table"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "picnic table"
+        }
+      ]
+    },
+    {
+      "sku": "table_1800x800",
+      "category": "tables",
+      "subcategory": "tables",
+      "function_tags": [
+        "prop",
+        "tables"
+      ],
+      "nominal_size_m": [
+        1.8,
+        0.8
+      ],
+      "drawn_footprint_m": [
+        1.8,
+        0.8
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TABLE-1.8X0.8"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "Rectangular banquet table 1800x800",
+      "canonical": {
+        "lib_dxf": "lib/alula_assets.dxf",
+        "block_name": "TABLE-1.8X0.8",
+        "preview": "previews/table_1800x800.png",
+        "asset_id": "table_1800x800"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/alula_assets.dxf",
+          "block_name": "TABLE-1.8X0.8"
+        }
+      ]
+    },
+    {
+      "sku": "tg_2",
+      "category": "tables",
+      "subcategory": "tables",
+      "function_tags": [
+        "prop",
+        "tables"
+      ],
+      "nominal_size_m": [
+        1.3,
+        1.3
+      ],
+      "drawn_footprint_m": [
+        1.3,
+        1.3
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TG_2"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "TG_2",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "TG_2",
+        "preview": "previews/tg_2.png",
+        "asset_id": "tg_2"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TG_2"
+        }
+      ]
+    },
+    {
+      "sku": "tgtg5",
+      "category": "tables",
+      "subcategory": "tables",
+      "function_tags": [
+        "prop",
+        "tables"
+      ],
+      "nominal_size_m": [
+        1.51,
+        1.51
+      ],
+      "drawn_footprint_m": [
+        1.51,
+        1.51
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TGTG5"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "TGTG5",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "TGTG5",
+        "preview": "previews/tgtg5.png",
+        "asset_id": "tgtg5"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "TGTG5"
+        }
+      ]
+    },
+    {
+      "sku": "trestle_tables",
+      "category": "tables",
+      "subcategory": "tables",
+      "function_tags": [
+        "prop",
+        "tables"
+      ],
+      "nominal_size_m": [
+        0.15,
+        0.07
+      ],
+      "drawn_footprint_m": [
+        0.15,
+        0.07
+      ],
+      "aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "tRESTLE TABLES"
+        }
+      ],
+      "capacity": {
+        "service_role": "prop"
+      },
+      "infra_load": {},
+      "placement_rules": {},
+      "rating_text": "tRESTLE TABLES",
+      "canonical": {
+        "lib_dxf": "lib/projects_assets.dxf",
+        "block_name": "tRESTLE TABLES",
+        "preview": "previews/trestle_tables.png",
+        "asset_id": "trestle_tables"
+      },
+      "live_aliases": [
+        {
+          "lib_dxf": "lib/projects_assets.dxf",
+          "block_name": "tRESTLE TABLES"
+        }
+      ]
+    }
+  ]
+}
